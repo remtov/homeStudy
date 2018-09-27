@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#myContainer {
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px solid #bcbcbc;
+}
+
+#myTable {
+	text-align: center;
+	border: 1px solid #dddddd;
+}
+
+#myTh {
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+#myHeader {
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #bcbcbc;
+}
+
+#myContent {
+	width: 100%;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	float: right;
+	border: 0px solid #bcbcbc;
+}
+
+#mySidebar {
+	width: 70%;
+	padding: 20px;
+	margin-bottom: 0px;
+	float: left;
+	border: 0px solid #bcbcbc;
+}
+
+#myFooter {
+	margin-top: 20px;
+	padding: 20px;
+	clear: both;
+	padding: 20px;
+	border: 1px solid #bcbcbc;
+}
+
+#myTextTitle {
+	width: 20%;
+}
+
+#myTextArea {
+	height: 350px;
+	/* min-height: 200px; */
+	text-align: left;
+}
