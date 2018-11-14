@@ -10,12 +10,11 @@ import java.sql.*;
 public class DriverTest { 
 	
 
-    private static String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static String JDBC_URL = "jdbc:mysql://localhost:3306/BBS";
-    private static String DBUSER = "root";
-    private static String DBUSER_PASS = "12345678";
-
-
+    private static String JDBC_DRIVER = "oracle.jdbc.OracleDriver";
+    private static String JDBC_URL = "jdbc:oracle:thin:@dallae.cu8plpduhf29.ap-northeast-2.rds.amazonaws.com:1521:orcl";
+    private static String DBUSER = "dancingvitamins";
+    private static String DBUSER_PASS = "bongdallae";
+	
 	public static void main(String args[]) {
 		Connection con = null;
 		try {

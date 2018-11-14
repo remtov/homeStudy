@@ -15,17 +15,17 @@ public class BbsDAO {
 
 	public BbsDAO() {// 데이터접근 객체
 		try {// 접속을 시도하는 부분
-			String dbURL = "jdbc:mysql://localhost:3306/BBS";
-			String dbID = "root";
-			String dbPassword = "12345678";
-			Class.forName("com.mysql.jdbc.Driver");
+			String dbURL ="jdbc:oracle:thin:@dallae.cu8plpduhf29.ap-northeast-2.rds.amazonaws.com:1521:orcl";
+			String dbID = "dancingvitamins";
+			String dbPassword = "bongdallae";
+			Class.forName("oracle.jdbc.OracleDriver");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 
 		} catch (Exception e) {
 			e.printStackTrace();
 
 		}
-
+		
 	}
 	/* DB연결부 */
 
